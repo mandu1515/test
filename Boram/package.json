@@ -1,0 +1,9 @@
+{
+  "name": "boram-work-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boram 관리자·직원 반응형 근무관리 프런트엔드",
+  "scripts": {
+    "test": "node --check dist/app.js && node --check dist/model.js && node --test tests/*.test.cjs"
+  }
+}
